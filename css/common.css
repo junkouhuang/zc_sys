@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: "\9ED1\4F53","Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+input,
+button{
+	outline:none
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.content_bj_img {
+	width:100%;
+	height:4rem;
+	background-image: url(../img/bjimg.jpg);
+	background-size: cover;
+}
+.content_pwd_txt_icon {
+	width: 100%;
+	height: 2rem;
+	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color: #999;
+}
+.content_pwd_txt_icon i {
+	font-size: 0.5rem;
+}
+.content_pwd_txt_icon span {
+	font-size: .3rem;
+}
+.content_pwd_input {
+	width: 5rem;
+	height: 1rem;
+    margin: auto;
+	position: relative;
+	display: flex;
+}
+.content_pwd_input input {
+	border: none;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #999;
+	color: #999;
+}
+.content_pwd_input input:focus {
+	border-bottom: 1px solid #409eff;
+	color: #409eff;
+}
+.content_btn {
+	width: 5rem;
+	height: 1rem;
+	display: flex;
+	margin: 1rem auto;
+}
+.content_btn  button {
+	width: 5rem;
+	height: 1rem;
+	line-height: 1rem;
+	border: none;
+	color: #fff;
+	border-radius: 1rem;
+	background: -webkit-linear-gradient(-90deg,#77b3f3, #409eff);
+    background: -o-linear-gradient(-90deg, #77b3f3, #409eff);
+    background: -moz-linear-gradient(-90deg, #77b3f3 , #409eff);
+    background: linear-gradient(-90deg, #77b3f3 ,#409eff);
+}
