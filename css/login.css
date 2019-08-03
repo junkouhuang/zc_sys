@@ -54,7 +54,7 @@
     background: -o-linear-gradient(-90deg, #77b3f3, #409eff);
     background: -moz-linear-gradient(-90deg, #77b3f3 , #409eff);
     background: linear-gradient(-90deg, #77b3f3 ,#409eff);
-	box-shadow: 0rem 0rem 0.2142857142857143rem rgba(0, 0, 0, 0.2);
-	-moz-box-shadow:0rem 0rem 0.2142857142857143rem rgba(0, 0, 0, 0.2);
-	-webkit-box-shadow:0rem 0rem 0.2142857142857143rem rgba(0, 0, 0, 0.2);
+	box-shadow: 0rem 0rem 0.7142857142857143rem rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:0rem 0rem 0.7142857142857143rem rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow:0rem 0rem 0.7142857142857143rem rgba(0, 0, 0, 0.2);
 }
