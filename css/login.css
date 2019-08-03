@@ -69,16 +69,33 @@ input::-webkit-input-placeholder {
 }
 .content_btn  button {
 	width: 5rem;
-	height: .9rem;
-	line-height: .9rem;
-	border: none;
-	color: #fff;
-	border-radius: 1rem;
-	background: -webkit-linear-gradient(-90deg,#77b3f3, #409eff);
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    border-radius: 1rem;
+    background: -webkit-linear-gradient(-90deg,#77b3f3, #409eff);
     background: -o-linear-gradient(-90deg, #77b3f3, #409eff);
     background: -moz-linear-gradient(-90deg, #77b3f3 , #409eff);
     background: linear-gradient(-90deg, #77b3f3 ,#409eff);
-	box-shadow: 0rem 0rem 0.2142857142857143rem #77b3f3;
-	-moz-box-shadow:0rem 0rem 0.2142857142857143rem #77b3f3;
-	-webkit-box-shadow:0rem 0rem 0.2142857142857143rem #77b3f3;
+    box-shadow: 0rem 0rem 0.2142857142857143rem #77b3f3;
+    -moz-box-shadow: 0rem 0rem 0.2142857142857143rem #77b3f3;
+    -webkit-box-shadow: 0rem 0rem 0.2142857142857143rem #77b3f3;
+}
+.tips {
+	padding: .15rem .4rem;
+	color: #fff;
+	background-color: rgba(0,0,0,.7);
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	margin-left: -1.3rem;
+	text-align: center;
+	border-radius: 1rem;
+	box-shadow: 0rem 0rem 0.1rem #000;
+    -moz-box-shadow: 0rem 0rem 0.1rem #000;
+    -webkit-box-shadow: 0rem 0rem 0.1rem #000;
+	display: none;
+}
+.tips p {
+	font-size: .3rem;
 }
