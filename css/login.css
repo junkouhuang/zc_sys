@@ -11,19 +11,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-/* 	color: #64aff7; */
 }
-/* .content_pwd_txt_icon i {
-	font-size: 0.5rem;
-} */
 .content_pwd_txt_icon span {
 	font-size: .4rem;
-	/* background-image: -webkit-linear-gradient(bottom,#77b3f3 ,#409eff);
-	background-image: -moz-linear-gradient(bottom,#77b3f3 ,#409eff);
-	background-image: linear-gradient(bottom,#77b3f3 ,#409eff); */
-	background-image: -webkit-linear-gradient(bottom,#dbeffc,#5da9f8,#2750a5);
-	background-image: -moz-linear-gradient(bottom,#dbeffc,#5da9f8,#2750a5);
-	background-image: linear-gradient(bottom,#dbeffc,#5da9f8,#2750a5);
+	background-image: -webkit-linear-gradient(right,#dbeffc,#5da9f8,#2750a5);
+	background-image: -moz-linear-gradient(right,#dbeffc,#5da9f8,#2750a5);
+	background-image: linear-gradient(right,#dbeffc,#5da9f8,#2750a5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	-moz-background-clip: text;
