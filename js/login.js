@@ -21,6 +21,10 @@ function tologin (){
 	    }
 	});
 	}else{
-		alert("请输入密码")
+		document.getElementById("tips").innerHTML="<p>密码不能为空</p>";
+		document.getElementById("tips").style.display="block";
+		setTimeout(function() {
+			document.getElementById("tips").style.display="none";
+		}, 1000);
 	}
 }
