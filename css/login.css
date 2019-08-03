@@ -14,9 +14,9 @@
 }
 .content_pwd_txt_icon span {
 	font-size: .4rem;
-	background-image: -webkit-linear-gradient(right,#dbeffc,#5da9f8,#2750a5);
-	background-image: -moz-linear-gradient(right,#dbeffc,#5da9f8,#2750a5);
-	background-image: linear-gradient(right,#dbeffc,#5da9f8,#2750a5);
+	background-image: -webkit-linear-gradient(right,#5da9f8,#5da9f8,#2750a5);
+	background-image: -moz-linear-gradient(right,#5da9f8,#5da9f8,#2750a5);
+	background-image: linear-gradient(right,#5da9f8,#5da9f8,#2750a5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	-moz-background-clip: text;
@@ -77,9 +77,9 @@ input::-webkit-input-placeholder {
     background: -o-linear-gradient(-90deg, #77b3f3, #409eff);
     background: -moz-linear-gradient(-90deg, #77b3f3 , #409eff);
     background: linear-gradient(-90deg, #77b3f3 ,#409eff);
-    box-shadow: 0rem 0rem 0.2142857142857143rem #77b3f3;
-    -moz-box-shadow: 0rem 0rem 0.2142857142857143rem #77b3f3;
-    -webkit-box-shadow: 0rem 0rem 0.2142857142857143rem #77b3f3;
+    box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f3;
+    -moz-box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f3;
+    -webkit-box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f3;
 }
 .tips {
 	padding: .15rem .4rem;
