@@ -41,8 +41,12 @@ input::-webkit-input-placeholder {
 	border: none;
 	width: 100%;
 	text-align: center;
-	border-bottom: 1px solid #999;
+	/* border-bottom: 1px solid #999; */
 	color: #999;
+	border-bottom: 1px solid;
+	border-image: -webkit-linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #00AFED 100%) 2 2 2 2;
+	border-image: -moz-linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #00AFED 100%) 2 2 2 2;
+	border-image: linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #00AFED 100%) 2 2 2 2;
 }
 .content_pwd_input input:focus {
 	border-bottom: 1px solid #409eff;
