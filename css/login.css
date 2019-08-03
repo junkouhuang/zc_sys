@@ -11,13 +11,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-	color: #64aff7;
+/* 	color: #64aff7; */
 }
 /* .content_pwd_txt_icon i {
 	font-size: 0.5rem;
 } */
 .content_pwd_txt_icon span {
 	font-size: .35rem;
+	/* background-image: -webkit-linear-gradient(bottom,#77b3f3 ,#409eff);
+	background-image: -moz-linear-gradient(bottom,#77b3f3 ,#409eff);
+	background-image: linear-gradient(bottom,#77b3f3 ,#409eff); */
+	background-image: -webkit-linear-gradient(bottom,#2750a5,#5da9f8,#dbeffc);
+	background-image: -moz-linear-gradient(bottom,#2750a5,#5da9f8,#dbeffc);
+	background-image: linear-gradient(bottom,#2750a5,#5da9f8,#dbeffc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
 }
 .content_pwd_input {
 	width: 5rem;
@@ -27,15 +39,15 @@
 	display: flex;
 }
 input:-moz-placeholder {   
-    color: #D6D6D6;   
+    color: #999;   
 }   
 
 input:-ms-input-placeholder {   
-    color: #D6D6D6;   
+    color: #999;   
 }   
 
 input::-webkit-input-placeholder {   
-    color: #D6D6D6;   
+    color: #999;   
 }
 .content_pwd_input input {
 	border: none;
@@ -51,9 +63,9 @@ input::-webkit-input-placeholder {
 .content_pwd_input input:focus {
 	border-bottom: 1px solid #409eff;
 	border-bottom: 1px solid;
-	border-image: -webkit-linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #00AFED 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
-	border-image: -moz-linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #00AFED 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
-	border-image: linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #00AFED 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
+	border-image: -webkit-linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #409eff 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
+	border-image: -moz-linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #409eff 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
+	border-image: linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #409eff 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
 	color: #409eff;
 }
 .content_btn {
