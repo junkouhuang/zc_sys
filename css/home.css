@@ -3,11 +3,10 @@
 	height: 100%;
 	position: absolute;
 	background-size: cover;
-	background-color: #fff;
 }
 .content_bj_img {
 	width:100%;
-	padding: .5rem 0;
+	padding: .2rem 0;
 	background: -webkit-linear-gradient(#409eff, #fff);
 	background: -o-linear-gradient(#409eff, #fff);
 	background: -moz-linear-gradient(#409eff, #fff);
@@ -99,7 +98,7 @@
 .content_item_list2 .search i{
 	font-size: .7rem;
 }
-.content_item_list2 put .i{
+.content_item_list2 .put i{
 	font-size: .7rem;
 }
 .content_item_list2 i {
