@@ -7,15 +7,15 @@
 .content_bj_img {
 	width:100%;
 	height: 2rem;
-	padding-top: .2rem;
+	padding-top: .3rem;
 	background: -webkit-linear-gradient(#409eff, #fff);
 	background: -o-linear-gradient(#409eff, #fff);
 	background: -moz-linear-gradient(#409eff, #fff);
 	background: linear-gradient(#409eff, #fff);
 }
 .content_bj_img .content_bj_top_img {
-	width: 96%;
-	margin-left: 2%;
+	width: 94%;
+    margin-left: 3%;
 	height: 4rem;
 	border-radius: .2rem;
 	background-image: url(../img/topimg.jpg);
@@ -26,11 +26,11 @@
 }
 .content_item_list1 {
 	display: flex;
-	margin-top: 2.3rem;
+	margin-top: 2.7rem;
 }
 .content_item_list2 {
 	display: flex;
-	margin-top: .3rem;
+	margin-top: .5rem;
 }
 .content_item_list1 .out,
 .content_item_list1 .return,
