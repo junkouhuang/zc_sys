@@ -61,6 +61,12 @@
 	align-items: center;
 	justify-content: center;
 }
+.content_item_list1 .out div:active,
+.content_item_list1 .return div:active,
+.content_item_list1 .patrol div:active {
+    background: #000000; 
+	opacity: 0.5;    
+}
 .content_item_list1 i{
 	color: #fff;
 }
@@ -103,6 +109,12 @@
 	display: flex;
     align-items: center;
     justify-content: center;
+}
+.content_item_list2 .out div:active,
+.content_item_list2 .return div:active,
+.content_item_list2 .patrol div:active {
+    background: #000000; 
+	opacity: 0.5;    
 }
 .content_item_list2 i{
 	color: #fff;
