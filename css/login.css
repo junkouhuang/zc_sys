@@ -74,9 +74,9 @@ input::-webkit-input-placeholder {
     color: #fff;
     border-radius: 1rem;
 	background: #358eb8;
-    background: -webkit-linear-gradient(-90deg, #358eb8ad ,#358eb8);
-    background: -o-linear-gradient(-90deg, #358eb8ad ,#358eb8);
-    background: -moz-linear-gradient(-90deg, #358eb8ad ,#358eb8);
+    background: -webkit-linear-gradient(-90deg, #fff ,#358eb8);
+    background: -o-linear-gradient(-90deg, #fff ,#358eb8);
+    background: -moz-linear-gradient(-90deg, #fff ,#358eb8);
     background: linear-gradient(-90deg, #358eb8ad ,#358eb8);
     box-shadow: 0rem 0.1rem 0.2142857142857143rem #358eb8a6;
     -moz-box-shadow: 0rem 0.1rem 0.2142857142857143rem #358eb8a6;
