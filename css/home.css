@@ -44,10 +44,11 @@
 	justify-items: center;
 	margin: auto;
 	text-align: center;
+	overflow: hidden;
 }
 .content_item_list1 .out div,
 .content_item_list1 .return div {
-	width: 3rem;
+	width: 3.3rem;
 	height: 2rem;
 	line-height: 2rem;
 	/* border-radius: 100%; */
@@ -73,10 +74,12 @@
 	font-size: .5rem;
 }
 .content_item_list1 .out i{
-	font-size: .7rem;
+	font-size: 1.5rem;
+    opacity: .2;
 }
 .content_item_list1 .return i {
-	font-size: .74rem;
+	font-size: 1.5rem;
+    opacity: .2;
 }
 /* .content_item_list1 span,
 .content_item_list2 span,
@@ -93,10 +96,11 @@
 	justify-items: center;
 	margin: auto;
 	text-align: center;
+	overflow: hidden;
 }
 .content_item_list2 .patrol div,
 .content_item_list2 .search div {
-	width: 3rem;
+	width: 3.3rem;
 	height: 2rem;
 	line-height: 2rem;
 	/* border-radius: 100%; */
@@ -110,8 +114,8 @@
 	color: #fff;
 	border-radius: .1rem;
 }
-.content_item_list2 .patrol div :active,
-.content_item_list2 .search div :active {
+.content_item_list2 .patrol:active,
+.content_item_list2 .search:active {
     background: #409eff; 
 	opacity: 0.7;    
 }
@@ -122,10 +126,12 @@
 	font-size: .5rem;
 }
 .content_item_list2 .patrol i{
-	font-size: .7rem;
+	font-size: 1.5rem;
+	opacity: .2;
 }
 .content_item_list2 .search i{
-	font-size: .7rem;
+	font-size: 1.5rem;
+	opacity: .2;
 }
 .content_item_list3 {
     display: flex;
@@ -139,10 +145,11 @@
 	justify-items: center;
 	margin: auto;
 	text-align: center;
+	overflow: hidden;
 }
 .content_item_list3 .put div,
 .content_item_list3 .other div {
-	width: 3rem;
+	width: 3.3rem;
 	height: 2rem;
 	line-height: 2rem;
 	/* border-radius: 100%; */
@@ -156,8 +163,8 @@
 	color: #fff;
 	border-radius: .1rem;
 }
-.content_item_list3 .put div :active,
-.content_item_list3 .other div :active {
+.content_item_list3 .put :active,
+.content_item_list3 .other :active {
     background: #409eff; 
 	opacity: 0.7;    
 }
@@ -168,8 +175,10 @@
 	font-size: .5rem;
 }
 .content_item_list3 .put i{
-	font-size: .7rem;
+	font-size: 1.5rem;
+	opacity: .2;
 }
 .content_item_list3 .other i{
-	font-size: .7rem;
+	font-size: 1.5rem;
+	opacity: .2;
 }
