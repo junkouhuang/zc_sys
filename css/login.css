@@ -74,13 +74,13 @@ input::-webkit-input-placeholder {
     color: #fff;
     border-radius: 1rem;
 	background: #358eb8;
-    background: -webkit-linear-gradient(-90deg, #fff ,#358eb8);
-    background: -o-linear-gradient(-90deg, #fff ,#358eb8);
-    background: -moz-linear-gradient(-90deg, #fff ,#358eb8);
-    background: linear-gradient(-90deg, #fff ,#358eb8);
-    box-shadow: 0rem 0.1rem 0.2142857142857143rem #358eb8a6;
-    -moz-box-shadow: 0rem 0.1rem 0.2142857142857143rem #358eb8a6;
-    -webkit-box-shadow: 0rem 0.1rem 0.2142857142857143rem #358eb8a6;
+    background: -webkit-linear-gradient(-90deg, #78afca ,#358eb8);
+    background: -o-linear-gradient(-90deg, #78afca ,#358eb8);
+    background: -moz-linear-gradient(-90deg, #78afca ,#358eb8);
+    background: linear-gradient(-90deg, #78afca ,#358eb8);
+    box-shadow: 0rem 0.1rem 0.2142857142857143rem #78afca;
+    -moz-box-shadow: 0rem 0.1rem 0.2142857142857143rem #78afca;
+    -webkit-box-shadow: 0rem 0.1rem 0.2142857142857143rem #78afca;
 }
 .tips {
 	padding: .15rem .4rem;
