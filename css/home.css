@@ -64,8 +64,8 @@
 .content_item_list1 .out div:active,
 .content_item_list1 .return div:active,
 .content_item_list1 .patrol div:active {
-    background: #000000; 
-	opacity: 0.5;    
+    background: #409eff; 
+	opacity: 0.8;    
 }
 .content_item_list1 i{
 	color: #fff;
@@ -110,11 +110,11 @@
     align-items: center;
     justify-content: center;
 }
-.content_item_list2 .out div:active,
-.content_item_list2 .return div:active,
-.content_item_list2 .patrol div:active {
-    background: #000000; 
-	opacity: 0.5;    
+.content_item_list2 .search div:active,
+.content_item_list2 .put div:active,
+.content_item_list2 .other div:active {
+    background: #409eff; 
+	opacity: 0.8;    
 }
 .content_item_list2 i{
 	color: #fff;
