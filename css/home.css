@@ -65,7 +65,7 @@
 .content_item_list1 .return div:active,
 .content_item_list1 .patrol div:active {
     background: #409eff; 
-	opacity: 0.8;    
+	opacity: 0.7;    
 }
 .content_item_list1 i{
 	color: #fff;
@@ -114,7 +114,7 @@
 .content_item_list2 .put div:active,
 .content_item_list2 .other div:active {
     background: #409eff; 
-	opacity: 0.8;    
+	opacity: 0.7;    
 }
 .content_item_list2 i{
 	color: #fff;
