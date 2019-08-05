@@ -1,7 +1,7 @@
 .content_bj_img {
 	width:100%;
 	height:4rem;
-	background-image: url(../img/bjimg.jpg);
+	background-image: url(../img/login06.jpg);
 	background-size: cover;
 }
 .content_pwd_txt_icon {
@@ -14,9 +14,9 @@
 }
 .content_pwd_txt_icon span {
 	font-size: .4rem;
-	background-image: -webkit-linear-gradient(right,#5da9f8,#5da9f8,#2750a5);
-	background-image: -moz-linear-gradient(right,#5da9f8,#5da9f8,#2750a5);
-	background-image: linear-gradient(right,#5da9f8,#5da9f8,#2750a5);
+	background-image: -webkit-linear-gradient(right,rgba(53, 142, 184, .6),rgba(53, 142, 184, .8),#358EB8);
+	background-image: -moz-linear-gradient(right,rgba(53, 142, 184, .6),rgba(53, 142, 184, .8),#358EB8);
+	background-image: linear-gradient(right,rgba(53, 142, 184, .6),rgba(53, 142, 184, .8),#358EB8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	-moz-background-clip: text;
@@ -54,12 +54,12 @@ input::-webkit-input-placeholder {
 	border-image: linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #999 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
 }
 .content_pwd_input input:focus {
-	border-bottom: 1px solid #409eff;
+	border-bottom: 1px solid #358eb8;
 	border-bottom: 1px solid;
-	border-image: -webkit-linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #409eff 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
-	border-image: -moz-linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #409eff 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
-	border-image: linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #409eff 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
-	color: #409eff;
+	border-image: -webkit-linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #358eb8 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
+	border-image: -moz-linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #358eb8 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
+	border-image: linear-gradient(90deg, rgba(0,216,247,0.00) 0%, #358eb8 50%, rgba(0,216,247,0.00) 100%) 2 2 2 2;
+	color: #358eb8;
 }
 .content_btn {
 	width: 5rem;
@@ -73,13 +73,13 @@ input::-webkit-input-placeholder {
     line-height: 1rem;
     color: #fff;
     border-radius: 1rem;
-    background: -webkit-linear-gradient(-90deg,#77b3f3, #409eff);
-    background: -o-linear-gradient(-90deg, #77b3f3, #409eff);
-    background: -moz-linear-gradient(-90deg, #77b3f3 , #409eff);
-    background: linear-gradient(-90deg, #77b3f3 ,#409eff);
-    box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f3;
-    -moz-box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f3;
-    -webkit-box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f3;
+    background: -webkit-linear-gradient(-90deg, #358eb8ad ,#358eb8);
+    background: -o-linear-gradient(-90deg, #358eb8ad ,#358eb8);
+    background: -moz-linear-gradient(-90deg, #358eb8ad ,#358eb8);
+    background: linear-gradient(-90deg, #358eb8ad ,#358eb8);
+    box-shadow: 0rem 0.1rem 0.2142857142857143rem #358eb8a6;
+    -moz-box-shadow: 0rem 0.1rem 0.2142857142857143rem #358eb8a6;
+    -webkit-box-shadow: 0rem 0.1rem 0.2142857142857143rem #358eb8a6;
 }
 .tips {
 	padding: .15rem .4rem;
