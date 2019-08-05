@@ -23,9 +23,9 @@
 	/* box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f345;
     -moz-box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f345;
     -webkit-box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f345; */
-	box-shadow: 0rem 0.1rem 0.2142857142857143rem red;
-    -moz-box-shadow: 0rem 0.1rem 0.2142857142857143rem red;
-    -webkit-box-shadow: 0rem 0.1rem 0.2142857142857143rem red;
+	box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f3b0;
+    -moz-box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f3b0;
+    -webkit-box-shadow: 0rem 0.1rem 0.2142857142857143rem #77b3f3b0;
 	
 }
 .content_item_list1 {
@@ -37,8 +37,7 @@
 	margin-top: .5rem;
 }
 .content_item_list1 .out,
-.content_item_list1 .return,
-.content_item_list1 .patrol {
+.content_item_list1 .return {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -47,12 +46,11 @@
 	text-align: center;
 }
 .content_item_list1 .out div,
-.content_item_list1 .return div,
-.content_item_list1 .patrol div {
-	width: 1rem;
-	height: 1rem;
-	line-height: 1rem;
-	border-radius: 100%;
+.content_item_list1 .return div {
+	width: 3rem;
+	height: 2rem;
+	line-height: 2rem;
+	/* border-radius: 100%; */
 	background: -webkit-linear-gradient(-90deg,#77b3f3, #409eff);
     background: -o-linear-gradient(-90deg, #77b3f3, #409eff);
     background: -moz-linear-gradient(-90deg, #77b3f3 , #409eff);
@@ -60,15 +58,19 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	color: #fff;
+	border-radius: .1rem;
 }
 .content_item_list1 .out div:active,
-.content_item_list1 .return div:active,
-.content_item_list1 .patrol div:active {
+.content_item_list1 .return div:active{
     background: #409eff; 
 	opacity: 0.7;    
 }
 .content_item_list1 i{
 	color: #fff;
+}
+.content_item_list1 span{
+	font-size: .7rem;
 }
 .content_item_list1 .out i{
 	font-size: .7rem;
@@ -76,18 +78,15 @@
 .content_item_list1 .return i {
 	font-size: .74rem;
 }
-.content_item_list1 .patrol i{
-	font-size: .6rem;
-}
-.content_item_list1 span,
-.content_item_list2 span{
+/* .content_item_list1 span,
+.content_item_list2 span,
+.content_item_list3 span{
 	font-size: .3rem;
 	margin-top: .1rem;
 	color: #797D81;
-}
-.content_item_list2 .search,
-.content_item_list2 .put,
-.content_item_list2 .other {
+} */
+.content_item_list2 .patrol,
+.content_item_list2 .search {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -95,13 +94,12 @@
 	margin: auto;
 	text-align: center;
 }
-.content_item_list2 .search div,
-.content_item_list2 .put div,
-.content_item_list2 .other div {
-	width: 1rem;
-	height: 1rem;
-	line-height: 1rem;
-	border-radius: 100%;
+.content_item_list2 .patrol div,
+.content_item_list2 .search div {
+	width: 3rem;
+	height: 2rem;
+	line-height: 3rem;
+	/* border-radius: 100%; */
 	background: -webkit-linear-gradient(-90deg,#77b3f3, #409eff);
     background: -o-linear-gradient(-90deg, #77b3f3, #409eff);
     background: -moz-linear-gradient(-90deg, #77b3f3 , #409eff);
@@ -109,25 +107,69 @@
 	display: flex;
     align-items: center;
     justify-content: center;
+	color: #fff;
+	border-radius: .1rem;
 }
-.content_item_list2 .search div:active,
-.content_item_list2 .put div:active,
-.content_item_list2 .other div:active {
+.content_item_list2 .patrol div :active,
+.content_item_list2 .search div :active {
     background: #409eff; 
 	opacity: 0.7;    
 }
 .content_item_list2 i{
 	color: #fff;
 }
+.content_item_list2 span{
+	font-size: .7rem;
+}
+.content_item_list2 .patrol i{
+	font-size: .7rem;
+}
 .content_item_list2 .search i{
 	font-size: .7rem;
 }
-.content_item_list2 .put i{
+.content_item_list3 {
+    display: flex;
+    margin-top: .5rem;
+}
+.content_item_list3 .put,
+.content_item_list3 .other {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	margin: auto;
+	text-align: center;
+}
+.content_item_list3 .put div,
+.content_item_list3 .other div {
+	width: 3rem;
+	height: 2rem;
+	line-height: 2rem;
+	/* border-radius: 100%; */
+	background: -webkit-linear-gradient(-90deg,#77b3f3, #409eff);
+    background: -o-linear-gradient(-90deg, #77b3f3, #409eff);
+    background: -moz-linear-gradient(-90deg, #77b3f3 , #409eff);
+    background: linear-gradient(-90deg, #77b3f3 ,#409eff);
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	color: #fff;
+	border-radius: .1rem;
+}
+.content_item_list3 .put div :active,
+.content_item_list3 .other div :active {
+    background: #409eff; 
+	opacity: 0.7;    
+}
+.content_item_list3 i{
+	color: #fff;
+}
+.content_item_list3 span{
 	font-size: .7rem;
 }
-.content_item_list2 i {
-	font-size: 1rem;
+.content_item_list3 .put i{
+	font-size: .7rem;
 }
-.content_item_list2 span{
-	font-size: .3rem;
+.content_item_list3 .other i{
+	font-size: .7rem;
 }
