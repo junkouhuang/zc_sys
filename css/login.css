@@ -73,6 +73,7 @@ input::-webkit-input-placeholder {
     line-height: 1rem;
     color: #fff;
     border-radius: 1rem;
+	background: #358eb8;
     background: -webkit-linear-gradient(-90deg, #358eb8ad ,#358eb8);
     background: -o-linear-gradient(-90deg, #358eb8ad ,#358eb8);
     background: -moz-linear-gradient(-90deg, #358eb8ad ,#358eb8);
