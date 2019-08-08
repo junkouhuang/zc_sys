@@ -40,6 +40,9 @@ p {
 	font-size: .3rem;
 	margin-top: .1rem;
 }
+p span {
+	float: right;
+}
 .combination {
 	border-bottom: 1px solid #f5f5f5;
 }
