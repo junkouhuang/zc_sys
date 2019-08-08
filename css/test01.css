@@ -49,6 +49,9 @@ input[type='text'] {
 	font-size: .3rem;
 	background-size: 1rem 1rem;
 }
+.content_button {
+	text-align: center;
+}
 .ok {
 	width: 3rem;
     height: 1rem;
