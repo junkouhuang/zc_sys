@@ -15,11 +15,12 @@ body {
 }
 .content_top h6:before {
 	content: "";
-	width: 2px;
-	height: .4rem;
-	background-color: #1B9AF7;
-	position: absolute;
-	left: .1rem;
+    width: 4px;
+    height: .4rem;
+    background-color: #1B9AF7;
+    position: absolute;
+    left: .1rem;
+    border-radius: 20px;
 }
 .content_bottom {
 	background-color: #fff;
