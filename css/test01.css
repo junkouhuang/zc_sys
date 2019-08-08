@@ -22,7 +22,8 @@ p {
 input[type='text'] {
 	width: 5rem;
     height: .4rem;
-    padding: .2rem;
+    padding: .2rem .4rem;
+	font-size: .3rem;
 }
 .chebox{
 	visibility: hidden;
