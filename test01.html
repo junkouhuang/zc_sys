@@ -1,90 +1,66 @@
-body {
-	background-color: #f5f5f5;
-}
-.app {
-	padding: .3rem;
-}
-.content_top {
-	background-color: #fff;
-	padding: .3rem;
-}
-.content_bottom {
-	background-color: #fff;
-	margin-top: .3rem;
-}
-p {
-	font-size: .3rem;
-	margin-bottom: .1rem;
-}
-.combination {
-	border-bottom: 1px solid #f5f5f5;
-}
-input[type='text'] {
-	width: 5rem;
-    height: .4rem;
-    padding: .2rem .4rem;
-	font-size: .3rem;
-}
-.chebox{
-	visibility: hidden;
-	display: inline-block;
-}
-.chebox:before{
-	display: inline-block;
-	content:'';
-	visibility: visible;
-	height: .3rem;
-	width: .3rem;
-	border: 1px  solid #70b0f4;
-	position: relative;
-	top: -2px;
-}
-.chebox:checked:before{
-	content: '\2714';
-	visibility: visible;
-	height: .3rem;
-	width: .3rem;
-	border: 1px #1b9af7 solid;
-	line-height: .3rem;
-	text-align: center;
-	font-size: .3rem;
-	background-size: 1rem 1rem;
-}
-.content_button div {
-	margin-top: 1rem;
-	width: 50%;
-	float: left;
-}
-.ok {
-	width: 3rem;
-    height: 1rem;
-    line-height: 1rem;
-	background: -webkit-linear-gradient(-90deg,#77b3f3, #409eff);
-    background: -o-linear-gradient(-90deg, #77b3f3, #409eff);
-    background: -moz-linear-gradient(-90deg, #77b3f3 , #409eff);
-    background: linear-gradient(-90deg, #77b3f3 ,#409eff);
-	border: 1px solid #409eff;
-	color: #fff;
-	border-radius: .1rem;
-	float: left;
-}
-.cancel {
-	width: 3rem;
-    height: 1rem;
-    line-height: 1rem;
-	background-color: #fff;
-	color: #409eff;
-	border-radius: .1rem;
-	float: right;
-}
-.ok:active {
-	background: #409eff; 
-	opacity: 0.7;   
-	border-radius: .1rem; 
-}
-.cancel:active {
-	background: #f5f5f5; 
-	opacity: 0.7;   
-	border-radius: .1rem; 
-	color: #999;
-}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>test01</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- 响应式 -->
+		<link href="css/responsive.css"  rel="stylesheet"/>
+		<!-- 公共样式 -->
+		<link href="css/common.css"  rel="stylesheet"/>
+		<!-- 文字图标 -->
+		<link href="css/iconfont.css"   rel="stylesheet"/>
+		<link href="css/test01.css"   rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="app">
+			<div class="content_top">
+				<div class="equipment_name">
+					<p>设备名：<span>成人心肺复苏模型</span></p>
+				</div>
+				<div class="style">
+					<p>设备类型：<span>非耗材</span></p>
+				</div>
+				<div class="specification">
+					<p>型号：<span>310045</span></p>
+				</div>
+				<div class="manufacturer">
+					<p>厂商：<span>美国纳斯</span></p>
+				</div>
+				<div class="warehouse">
+					<p>库房：<span>临床技能培训中心</span></p>
+				</div>
+			</div>
+			<div class="content_bottom">
+				<div class="combination">
+					<input type="text" placeholder="请输入文本"/>
+					<input type="checkbox"  class="chebox"/>
+				</div>
+				<div class="combination">
+					<input type="text"  placeholder="请输入文本"/>
+					<input type="checkbox"  class="chebox"/>
+				</div>
+				<div class="combination">
+					<input type="text"  placeholder="请输入文本"/>
+					<input type="checkbox"  class="chebox"/>
+				</div>
+				<div class="combination">
+					<input type="text"  placeholder="请输入文本"/>
+					<input type="checkbox"  class="chebox"/>
+				</div>
+				<div class="combination">
+					<input type="text"  placeholder="请输入文本"/>
+					<input type="checkbox"  class="chebox"/>
+				</div>
+			</div>
+			<div class="content_button">
+				<div>
+					<button type="button" class="ok">确定</button>
+				</div>
+				<div>
+					<button type="button" class="cancel">取消</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
