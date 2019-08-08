@@ -50,8 +50,8 @@ input[type='text'] {
 	font-size: .3rem;
 	background-size: 1rem 1rem;
 }
-.content_button {
-	text-align: center;
+.content_button div {
+	width: 50%;
 }
 .ok {
 	width: 3rem;
@@ -64,6 +64,7 @@ input[type='text'] {
 	border: 1px solid #409eff;
 	color: #fff;
 	border-radius: .1rem;
+	float: left;
 }
 .cancel {
 	width: 3rem;
@@ -72,6 +73,7 @@ input[type='text'] {
 	background-color: #fff;
 	color: #409eff;
 	border-radius: .1rem;
+	float: right;
 }
 .ok:active {
 	background: #409eff; 
