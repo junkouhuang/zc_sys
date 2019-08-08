@@ -52,7 +52,6 @@ input[type='text'] {
     padding: .2rem .4rem;
 	font-size: .3rem;
 	border-bottom: 1px solid #999;
-	vertical-align: middle;
 }
 label {
 	font-size: .3rem;
