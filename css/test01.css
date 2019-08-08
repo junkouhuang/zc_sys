@@ -28,7 +28,7 @@ h6:before {
     border-radius: 20px;
     top: 50%;
     bottom: 0;
-    margin-top: -.2rem;
+    margin-top: -.21rem;
 }
 .content_bottom {
 	background-color: #fff;
@@ -52,9 +52,13 @@ input[type='text'] {
     padding: .2rem .4rem;
 	font-size: .3rem;
 }
+label {
+	font-size: .3rem;
+}
 .chebox{
 	visibility: hidden;
 	display: inline-block;
+	margin-right: 6px;
 }
 .chebox:before{
 	display: inline-block;
@@ -96,7 +100,7 @@ input[type='text'] {
     background: linear-gradient(-90deg, #77b3f3 ,#409eff);
 	border: 1px solid #409eff;
 	color: #fff;
-	border-radius: .1rem;
+	border-radius: .2rem;
 	float: left;
 	font-size: .3rem;
 }
@@ -106,18 +110,18 @@ input[type='text'] {
     line-height: 1rem;
 	background-color: #fff;
 	color: #409eff;
-	border-radius: .1rem;
+	border-radius: .2rem;
 	float: right;
 	font-size: .3rem;
 }
 .ok:active {
 	background: #409eff; 
 	opacity: 0.7;   
-	border-radius: .1rem; 
+	border-radius: .2rem; 
 }
 .cancel:active {
 	background: #f5f5f5; 
 	opacity: 0.7;   
-	border-radius: .1rem; 
+	border-radius: .2rem; 
 	color: #999;
 }
