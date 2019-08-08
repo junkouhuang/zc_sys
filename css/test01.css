@@ -55,17 +55,14 @@ input[type='text'] {
 }
 label {
 	font-size: .3rem;
+	display: flex;
+	align-items: center;
+	margin: .2rem 0;
 }
 .chebox{
 	visibility: hidden;
 	display: inline-block;
 	margin-right: 6px;
-}
-fieldset {
-	padding: 0 .1rem .4rem .1rem;
-}
-legend {
-	font-size: .3rem;
 }
 .chebox:before{
 	display: inline-block;
