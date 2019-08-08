@@ -51,7 +51,9 @@ input[type='text'] {
 	background-size: 1rem 1rem;
 }
 .content_button div {
+	margin-top: 1rem;
 	width: 50%;
+	float: left;
 }
 .ok {
 	width: 3rem;
