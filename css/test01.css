@@ -47,11 +47,12 @@ p span {
 	/* border-bottom: 1px solid #f5f5f5; */
 }
 input[type='text'] {
-	width: 3.5rem;
+	width: 4rem;
     height: .4rem;
     padding: .2rem .4rem;
 	font-size: .3rem;
-	border-bottom: 1px solid #6c6c6c;
+	border-bottom: 1px solid #999;
+	vertical-align: middle;
 }
 label {
 	font-size: .3rem;
